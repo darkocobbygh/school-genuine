@@ -9,7 +9,7 @@ import reddi from '../assets/fa-brands-6.png'
 const QualityEdu = () => {
   return (
     <div>
-      <div className='flex md:items-center md:justify-center md:gap-20 md:h-full md:pl-12 md:w-full'>
+      <div className='flex md:items-center md:justify-center md:gap-20 md:pl-12 md:w-full'>
         <div>
             <img src={qua} alt="pic" />
         </div>
@@ -22,7 +22,7 @@ const QualityEdu = () => {
             <button className='text-[#FF6551]'>Learn More &gt;</button>
         </div>
       </div>
-      <div className='flex gap-4 md:justify-center md:pb-20'>
+      <div className='flex gap-4 md:justify-center md:pb-20 md:pt-20'>
         <div><img src={hooli} alt="" /></div>
         <div><img src={lyat} alt="" /></div>
         <div><img src={coll} alt="" /></div>

@@ -10,8 +10,10 @@ import QualityEdu from './pages/QualityEdu';
 function App() {
   return (
     <div className="App">
-        <Navbar/>
+      <div className='navs'>
+      <Navbar/>
         <Home/>
+      </div>
         <QualityEdu/>
         <PracticeAdvice/>
         <PopularAdvice/>
