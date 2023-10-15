@@ -7,14 +7,14 @@ import secon from '../assets/testimonial-user-cover-169.png'
 const Approdable = () => {
   return (
     <div className='flex md:flex-col md:items-center md:justify-center'>
-      <div className='md:w-[1044px] md:pb-20'>
-      <div className=''>
+      <div className='md:w-[1044px] md:pb-20 pl-20 pr-20 md:pr-0 md:pl-0'>
+      <div className='pt-6 md:pt-0'>
         <p className='text-[#FF6551] font-bold text-sm'>Practice Advice</p>
-        <h3 className='text-4xl font-bold text-[#252B42] md:pt-4'>Approdable Packages</h3>
-        <p className='md:pt-4 text-[#737373]'>Problems trying to resolve the conflict between <br />
+        <h3 className='text-4xl font-bold text-[#252B42] md:pt-4 pt-4'>Approdable Packages</h3>
+        <p className='md:pt-4 pt-4 text-[#737373]'>Problems trying to resolve the conflict between <br />
         the two major realms of Classical physics: Newtonian mechanics </p>
       </div>
-      <div className='flex gap-4 md:items-center md:justify-center md:pt-16'>
+      <div className='flex gap-4 md:flex-row flex-col md:items-center md:justify-center md:pt-16 pt-6'>
         <div className='md:w-[328px] items-center justify-center'>
           <div className='flex gap-2 justify-center'>
             <AiFillStar color='gold' size={'20px'}/>
@@ -29,9 +29,9 @@ const Approdable = () => {
             reach your financial <br />
             goal for the month <br />
             and year.</p>
-            <div className='flex gap-4 md:pl-14 md:pt-10'>
+            <div className='flex gap-4 md:pl-14 md:pt-10 pt-4'>
                 <img src={picc} alt="" />
-                <div className='flex md:flex-col'>
+                <div className='flex md:flex-col flex-col md:pl-0 pl-2'>
                 <h6 className='text-[#FF6551] font-bold text-sm'>Regina Miles</h6>
                 <p>Designer</p>
                 </div>
@@ -51,9 +51,9 @@ const Approdable = () => {
             reach your financial <br />
             goal for the month <br />
             and year.</p>
-            <div className='flex gap-4 md:pl-14 md:pt-10'>
+            <div className='flex gap-4 md:pl-14 md:pt-10 pt-4'>
                 <img src={mann} alt="" />
-                <div className='flex md:flex-col'>
+                <div className='flex md:flex-col flex-col md:pl-0 pl-2'>
                 <h6 className='text-[#FF6551] font-bold text-sm'>Regina Miles</h6>
                 <p>Designer</p>
                 </div>
@@ -73,9 +73,9 @@ const Approdable = () => {
             reach your financial <br />
             goal for the month <br />
             and year.</p>
-            <div className='flex md:gap-4 md:pl-14 md:pt-10'>
+            <div className='flex md:gap-4 md:pl-14 md:pt-10 pt-4'>
                 <img src={secon} alt="" />
-               <div className='flex md:flex-col'>
+               <div className='flex md:flex-col flex-col md:pl-0 pl-2'>
                <h6 className='text-[#FF6551] font-bold text-sm'>Regina Miles</h6>
                 <p>Designer</p>
                </div>

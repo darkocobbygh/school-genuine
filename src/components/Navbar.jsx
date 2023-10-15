@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink to={'/contact'} className={'lg:pr-4'}>Contact</NavLink>
         </ul>
         </div>
-        <div>
+        <div className='hidden md:block'>
           <NavLink to={'/login'} className={'lg:pr-4'}>Login</NavLink>
           <NavLink to={'/join-us'} className={'lg:pr-4 text-[#FF6551]'}>Join us</NavLink>
         </div>
@@ -34,11 +34,13 @@ const Navbar = () => {
       </nav>
       {isOpem &&(
         <div>
-        <ul className='flex justify-center items-center flex-col text-4xl md:hidden'>
+        <ul className='flex justify-center items-center gap-8 flex-col text-4xl md:hidden'>
             <NavLink to={'/'}>Home</NavLink>
             <NavLink to={'/product'}>Product</NavLink>
             <NavLink to={'/pricing'}>Pricing</NavLink>
             <NavLink to={'/contact'}>Contact</NavLink>
+            <NavLink to={'/login'} className={'lg:pr-4'}>Login</NavLink>
+          <NavLink to={'/join-us'} className={'lg:pr-4 text-[#FF6551]'}>Join us</NavLink>
         </ul>
         </div>
       )}
